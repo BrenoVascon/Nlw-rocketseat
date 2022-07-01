@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DoctorCare</title>
 
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -71,7 +71,7 @@
         <div class="menu">
           <ul>
             <li>
-              <a onclick="closeMenu()" href="#home">Início</a>
+              <a class="active" onclick="closeMenu()" href="#home">Início</a>
             </li>
             <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
             <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
@@ -253,8 +253,6 @@
 
               Agende sua consulta
             </a>
-
-            />
           </div>
         </div>
 
@@ -471,7 +469,7 @@
 
         <div class="col-b">
           <img
-            src="assets/_doutor-feliz-segurando-prancheta-com-pacientes.png"
+            src="./assets/_doutor-feliz-segurando-prancheta-com-pacientes.png"
             alt="Doutor feliz segurando prancheta com pacientes"
           />
         </div>
@@ -480,6 +478,7 @@
 
     <section id="contact">
       <div class="wrapper">
+        <div class="col-a">
         <header>
           <h2>Entre em contato com a gente!</h2>
         </header>
@@ -556,6 +555,10 @@
 
             Agende sua consulta
           </a>
+        </div>
+      </div>
+
+      <div class="col-b">
 
           <img
             src="/assets/_homem-negro-com-moletom-bege-mexendo-no-celular.png"
@@ -567,6 +570,8 @@
 
     <footer>
       <div class="wrapper">
+        <div class="col-a"></div>
+        
         <a class="logo" href="#home">
           <svg
             width="133"
@@ -622,7 +627,9 @@
           ©2022 DoctorCare. <br />
           Todos os direitos reservados.
         </p>
+      </div>
 
+      <div class="col-b">
         <ul class="social-links">
           <li>
             <a target="_blank" href="https://instagram.com/maykbrito"
@@ -702,7 +709,8 @@
               </svg>
             </a>
           </li>
-        </ul>
+         </ul>
+       </div>
       </div>
     </footer>
 
